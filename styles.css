@@ -551,7 +551,7 @@ h3 {
   }
 
   .portrait-wrap {
-    width: calc(100% - 1.25rem);
+    width: min(78vw, 300px);
   }
 
   .portrait-accent {
@@ -559,8 +559,16 @@ h3 {
     top: -0.75rem;
   }
 
+  .portrait-wrap img {
+    height: auto;
+    aspect-ratio: 1;
+    object-position: center;
+  }
+
   .portrait-wrap p {
+    width: calc(100% - 0.75rem);
     margin-left: -0.5rem;
+    margin-top: -1.5rem;
   }
 
   .expertise-grid,

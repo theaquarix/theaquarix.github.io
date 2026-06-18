@@ -8,6 +8,11 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#f7f4ef">
     <link rel="canonical" href="https://theaquarix.github.io/">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
     <link rel="preload" as="image" href="assets/musfiq-rahman.jpg" fetchpriority="high">
     <link rel="stylesheet" href="styles.css">
 
@@ -16,6 +21,7 @@
     <meta property="og:description" content="SEO specialist helping businesses improve search visibility, organic traffic, and website performance.">
     <meta property="og:url" content="https://theaquarix.github.io/">
     <meta property="og:image" content="https://theaquarix.github.io/assets/musfiq-rahman.jpg">
+    <meta property="og:image:alt" content="Portrait of Musfiq Rahman">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Musfiq Rahman | SEO Specialist & DevOps Learner">
     <meta name="twitter:description" content="Technical SEO, content optimization, local SEO, and organic growth.">
@@ -24,34 +30,47 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Musfiq Rahman",
-        "alternateName": "TheAquarix",
-        "url": "https://theaquarix.github.io/",
-        "image": "https://theaquarix.github.io/assets/musfiq-rahman.jpg",
-        "jobTitle": "SEO Specialist",
-        "email": "mailto:themusfiqwork@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Barishal",
-          "addressCountry": "Bangladesh"
-        },
-        "knowsAbout": [
-          "On-page SEO",
-          "Off-page SEO",
-          "Technical SEO",
-          "Keyword Research",
-          "Content Optimization",
-          "Local SEO",
-          "Google Business Profile Optimization",
-          "Competitor Analysis",
-          "Link Building",
-          "DevOps",
-          "Python"
-        ],
-        "sameAs": [
-          "https://github.com/theaquarix",
-          "https://www.linkedin.com/in/theaquarix/"
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://theaquarix.github.io/#website",
+            "url": "https://theaquarix.github.io/",
+            "name": "Musfiq Rahman | TheAquarix",
+            "description": "Portfolio of SEO specialist Musfiq Rahman.",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://theaquarix.github.io/#person",
+            "name": "Musfiq Rahman",
+            "alternateName": "TheAquarix",
+            "url": "https://theaquarix.github.io/",
+            "image": "https://theaquarix.github.io/assets/musfiq-rahman.jpg",
+            "jobTitle": "SEO Specialist",
+            "email": "mailto:themusfiqwork@gmail.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Barishal",
+              "addressCountry": "Bangladesh"
+            },
+            "knowsAbout": [
+              "On-page SEO",
+              "Off-page SEO",
+              "Technical SEO",
+              "Keyword Research",
+              "Content Optimization",
+              "Local SEO",
+              "Google Business Profile Optimization",
+              "Competitor Analysis",
+              "Link Building",
+              "DevOps",
+              "Python"
+            ],
+            "sameAs": [
+              "https://github.com/theaquarix",
+              "https://www.linkedin.com/in/theaquarix/"
+            ]
+          }
         ]
       }
     </script>
